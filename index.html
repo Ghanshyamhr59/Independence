@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Independence Day Homepage</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: linear-gradient(120deg, #ff9933, #ffffff, #138808);
+      color: #333;
+    }
+    header {
+      width: 100%;
+      padding: 20px;
+      background: rgba(0,0,0,0.6);
+      color: white;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+    header h1 {
+      font-size: 24px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffeb3b;
+    }
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      background: rgba(0,0,0,0.5);
+      color: white;
+    }
+    .hero img {
+      width: 220px;
+      height: auto;
+      border-radius: 20px;
+      border: 5px solid white;
+      margin-bottom: 20px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.7);
+    }
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 15px;
+      animation: fadeIn 2s ease-in-out;
+    }
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      animation: fadeIn 3s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    section {
+      padding: 80px 20px;
+      text-align: center;
+      background: white;
+      margin: 20px;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    section h3 {
+      font-size: 28px;
+      margin-bottom: 15px;
+      color: #ff5722;
+    }
+    footer {
+      background: rgba(0,0,0,0.8);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Independence Day</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <img src="C:\Users\ghans\OneDrive\Desktop\ghanshyam\independance.jpg" alt="My Photo">
+    <h2>Proud to be Indian 🇮🇳</h2>
+    <p>Celebrating the spirit of freedom, unity, and diversity this Independence Day.</p>
+  </section>
+
+  <section id="about">
+    <h3>About Me</h3>
+    <p>Hello! I am an Indian citizen who takes pride in the nation’s culture, heritage, and diversity. Independence Day is not just a date but a feeling of patriotism, unity, and responsibility.</p>
+  </section>
+
+  <section id="services">
+    <h3>My Skills & Services</h3>
+    <p>✔ Web Development<br>✔ Creative Design<br>✔ Problem Solving<br>✔ Team Collaboration</p>
+  </section>
+
+  <section id="contact">
+    <h3>Contact Me</h3>
+    <p>Email: ghanshyamnapa63@gmail.com<br>Phone: +91-7988805097<br>Follow me on social media</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Proud Indian | Designed with ❤️ for Independence Day</p>
+  </footer>
+
+
+</body>
+</html>
